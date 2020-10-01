@@ -1,11 +1,68 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "MyMusic.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/MyMusic.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyMusic.Core.dll": {}
+        }
+      },
+      "MyMusic.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "MyMusic.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MyMusic.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyMusic.Data.dll": {}
+        }
+      },
+      "MyMusic.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "MyMusic.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MyMusic.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyMusic.Services.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MyMusic.Core/1.0.0": {
+      "type": "project",
+      "path": "../MyMusic.Core/MyMusic.Core.csproj",
+      "msbuildProject": "../MyMusic.Core/MyMusic.Core.csproj"
+    },
+    "MyMusic.Data/1.0.0": {
+      "type": "project",
+      "path": "../MyMusic.Data/MyMusic.Data.csproj",
+      "msbuildProject": "../MyMusic.Data/MyMusic.Data.csproj"
+    },
+    "MyMusic.Services/1.0.0": {
+      "type": "project",
+      "path": "../MyMusic.Services/MyMusic.Services.csproj",
+      "msbuildProject": "../MyMusic.Services/MyMusic.Services.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "MyMusic.Core >= 1.0.0",
+      "MyMusic.Data >= 1.0.0",
+      "MyMusic.Services >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\keith\\.nuget\\packages\\": {},
@@ -39,7 +96,17 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "G:\\git\\Source\\Repos\\effective-guacamole\\MyMusic.Core\\MyMusic.Core.csproj": {
+              "projectPath": "G:\\git\\Source\\Repos\\effective-guacamole\\MyMusic.Core\\MyMusic.Core.csproj"
+            },
+            "G:\\git\\Source\\Repos\\effective-guacamole\\MyMusic.Data\\MyMusic.Data.csproj": {
+              "projectPath": "G:\\git\\Source\\Repos\\effective-guacamole\\MyMusic.Data\\MyMusic.Data.csproj"
+            },
+            "G:\\git\\Source\\Repos\\effective-guacamole\\MyMusic.Services\\MyMusic.Services.csproj": {
+              "projectPath": "G:\\git\\Source\\Repos\\effective-guacamole\\MyMusic.Services\\MyMusic.Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
