@@ -65,3 +65,13 @@ G:\git\Source\Repos\effective-guacamole\MyMusic.Api\obj\Debug\netcoreapp3.1\MyMu
 G:\git\Source\Repos\effective-guacamole\MyMusic.Api\obj\Debug\netcoreapp3.1\MyMusic.Api.pdb
 G:\git\Source\Repos\effective-guacamole\MyMusic.Api\obj\Debug\netcoreapp3.1\MyMusic.Api.genruntimeconfig.cache
 G:\git\Source\Repos\effective-guacamole\MyMusic.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+G:\git\Source\Repos\effective-guacamole\MyMusic.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+G:\git\Source\Repos\effective-guacamole\MyMusic.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+G:\git\Source\Repos\effective-guacamole\MyMusic.Api\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+G:\git\Source\Repos\effective-guacamole\MyMusic.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+G:\git\Source\Repos\effective-guacamole\MyMusic.Api\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+G:\git\Source\Repos\effective-guacamole\MyMusic.Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+G:\git\Source\Repos\effective-guacamole\MyMusic.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+G:\git\Source\Repos\effective-guacamole\MyMusic.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+G:\git\Source\Repos\effective-guacamole\MyMusic.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+G:\git\Source\Repos\effective-guacamole\MyMusic.Api\obj\Debug\netcoreapp3.1\MyMusic.Api.MvcApplicationPartsAssemblyInfo.cs
