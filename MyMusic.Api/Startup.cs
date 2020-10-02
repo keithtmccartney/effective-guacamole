@@ -13,6 +13,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using MyMusic.Core;
 using MyMusic.Data;
+using MyMusic.Services.Services;
 
 namespace MyMusic.Api
 {
@@ -30,6 +31,8 @@ namespace MyMusic.Api
         {
             services.AddControllers();
             services.AddScoped<IUnitofWork, UnitOfWork>(); // Add dependency injection for our Unit Of Work.
+            services.AddTransient<IArtistService, ArtistService>(); // Add dependency injection for our Artist Service.
+            services.AddTransient<IMusicService, MusicService>(); // Add dependency injection for our Music Service.
             services.AddDbContext<MyMusicDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Default"), x => x.MigrationsAssembly("MyMusic.Data")));
         }
 
