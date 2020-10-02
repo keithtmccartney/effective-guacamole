@@ -4,7 +4,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyMusic.Core.Repository
+namespace MyMusic.Core.Repositories
 {
     public interface IRepository<TEntity> where TEntity : class
     {
