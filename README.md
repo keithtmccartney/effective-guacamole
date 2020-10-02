@@ -5,7 +5,7 @@ Grab the article at [https://medium.com/swlh/building-a-nice-multi-layer-net-cor
 
 ## Tips/Run
 
-* Running the project - at [https://localhost:5001](https://localhost:5001) - through [https://github.com/domaindrivendev/Swashbuckle.AspNetCore](Swagger) ('Swashbuckle.AspNetCore', version 5.0.0-rc3) ("dotnet run -p MyMusic.Api/MyMusic.Api.csproj");
+* Running the project - at [https://localhost:5001](https://localhost:5001) - through [Swagger](https://github.com/domaindrivendev/Swashbuckle.AspNetCore) ('Swashbuckle.AspNetCore', version 5.0.0-rc3) ("dotnet run -p MyMusic.Api/MyMusic.Api.csproj");
 
 ## Errors Experienced
 
