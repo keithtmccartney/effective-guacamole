@@ -9,7 +9,8 @@ Grab the article at [https://medium.com/swlh/building-a-nice-multi-layer-net-cor
 
 ## Errors Experienced
 
-* Abc
+* My powershell terminal in VSCode installed dotnet-ef but wouldn't run it even after uninstalling ("dotnet tool uninstall --global dotnet-ef") and targeting a specific latest build ("dotnet tool install --global dotnet-ef --version 3.*"), it was evidently running successfully outside of VSCode and in a normal PS terminal;
+* I ended up having to install 'Microsoft.EntityFrameworkCore.Design' into the Api project also ("dotnet add MyMusic.Api/MyMusic.Api.csproj package Microso;ft.EntityFrameworkCore.Design")
 
 ## Notes:
 

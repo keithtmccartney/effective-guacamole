@@ -1,0 +1,12 @@
+G:\git\Source\Repos\effective-guacamole\MyMusic.Data\bin\Debug\netstandard2.0\MyMusic.Data.deps.json
+G:\git\Source\Repos\effective-guacamole\MyMusic.Data\bin\Debug\netstandard2.0\MyMusic.Data.dll
+G:\git\Source\Repos\effective-guacamole\MyMusic.Data\bin\Debug\netstandard2.0\MyMusic.Data.pdb
+G:\git\Source\Repos\effective-guacamole\MyMusic.Data\bin\Debug\netstandard2.0\MyMusic.Core.dll
+G:\git\Source\Repos\effective-guacamole\MyMusic.Data\bin\Debug\netstandard2.0\MyMusic.Core.pdb
+G:\git\Source\Repos\effective-guacamole\MyMusic.Data\obj\Debug\netstandard2.0\MyMusic.Data.csprojAssemblyReference.cache
+G:\git\Source\Repos\effective-guacamole\MyMusic.Data\obj\Debug\netstandard2.0\MyMusic.Data.csproj.CoreCompileInputs.cache
+G:\git\Source\Repos\effective-guacamole\MyMusic.Data\obj\Debug\netstandard2.0\MyMusic.Data.AssemblyInfoInputs.cache
+G:\git\Source\Repos\effective-guacamole\MyMusic.Data\obj\Debug\netstandard2.0\MyMusic.Data.AssemblyInfo.cs
+G:\git\Source\Repos\effective-guacamole\MyMusic.Data\obj\Debug\netstandard2.0\MyMusic.Data.csproj.CopyComplete
+G:\git\Source\Repos\effective-guacamole\MyMusic.Data\obj\Debug\netstandard2.0\MyMusic.Data.dll
+G:\git\Source\Repos\effective-guacamole\MyMusic.Data\obj\Debug\netstandard2.0\MyMusic.Data.pdb
