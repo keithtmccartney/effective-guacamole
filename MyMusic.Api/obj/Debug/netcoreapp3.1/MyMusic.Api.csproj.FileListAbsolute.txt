@@ -131,9 +131,6 @@ G:\git\Source\Repos\effective-guacamole\MyMusic.Api\bin\Debug\netcoreapp3.1\MyMu
 G:\git\Source\Repos\effective-guacamole\MyMusic.Api\bin\Debug\netcoreapp3.1\MyMusic.Services.pdb
 G:\git\Source\Repos\effective-guacamole\MyMusic.Api\bin\Debug\netcoreapp3.1\MyMusic.Data.pdb
 G:\git\Source\Repos\effective-guacamole\MyMusic.Api\obj\Debug\netcoreapp3.1\MyMusic.Api.csprojAssemblyReference.cache
-G:\git\Source\Repos\effective-guacamole\MyMusic.Api\obj\Debug\netcoreapp3.1\MyMusic.Api.csproj.CoreCompileInputs.cache
-G:\git\Source\Repos\effective-guacamole\MyMusic.Api\obj\Debug\netcoreapp3.1\MyMusic.Api.MvcApplicationPartsAssemblyInfo.cs
-G:\git\Source\Repos\effective-guacamole\MyMusic.Api\obj\Debug\netcoreapp3.1\MyMusic.Api.MvcApplicationPartsAssemblyInfo.cache
 G:\git\Source\Repos\effective-guacamole\MyMusic.Api\obj\Debug\netcoreapp3.1\MyMusic.Api.AssemblyInfoInputs.cache
 G:\git\Source\Repos\effective-guacamole\MyMusic.Api\obj\Debug\netcoreapp3.1\MyMusic.Api.AssemblyInfo.cs
 G:\git\Source\Repos\effective-guacamole\MyMusic.Api\obj\Debug\netcoreapp3.1\MyMusic.Api.RazorTargetAssemblyInfo.cache
