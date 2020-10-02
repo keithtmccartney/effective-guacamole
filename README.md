@@ -13,7 +13,7 @@ Grab the article at [https://medium.com/swlh/building-a-nice-multi-layer-net-cor
 
 ## Notes:
 
-* Abc
+* EntityFramework Core is no longer consumed from with "dotnet cli", a global installation to my environment was applied for use within the project via "dotnet tool install --global dotnet-ef";
 
 ## What's it all about?
 
