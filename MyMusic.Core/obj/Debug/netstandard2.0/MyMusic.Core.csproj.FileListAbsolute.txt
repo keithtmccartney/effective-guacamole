@@ -6,3 +6,4 @@ G:\git\Source\Repos\effective-guacamole\MyMusic.Core\obj\Debug\netstandard2.0\My
 G:\git\Source\Repos\effective-guacamole\MyMusic.Core\obj\Debug\netstandard2.0\MyMusic.Core.AssemblyInfo.cs
 G:\git\Source\Repos\effective-guacamole\MyMusic.Core\obj\Debug\netstandard2.0\MyMusic.Core.dll
 G:\git\Source\Repos\effective-guacamole\MyMusic.Core\obj\Debug\netstandard2.0\MyMusic.Core.pdb
+G:\git\Source\Repos\effective-guacamole\MyMusic.Core\obj\Debug\netstandard2.0\MyMusic.Core.csprojAssemblyReference.cache

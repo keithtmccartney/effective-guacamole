@@ -140,3 +140,7 @@ G:\git\Source\Repos\effective-guacamole\MyMusic.Api\obj\Debug\netcoreapp3.1\stat
 G:\git\Source\Repos\effective-guacamole\MyMusic.Api\obj\Debug\netcoreapp3.1\MyMusic.Api.dll
 G:\git\Source\Repos\effective-guacamole\MyMusic.Api\obj\Debug\netcoreapp3.1\MyMusic.Api.pdb
 G:\git\Source\Repos\effective-guacamole\MyMusic.Api\obj\Debug\netcoreapp3.1\MyMusic.Api.genruntimeconfig.cache
+G:\git\Source\Repos\effective-guacamole\MyMusic.Api\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+G:\git\Source\Repos\effective-guacamole\MyMusic.Api\obj\Debug\netcoreapp3.1\MyMusic.Api.csproj.CoreCompileInputs.cache
+G:\git\Source\Repos\effective-guacamole\MyMusic.Api\obj\Debug\netcoreapp3.1\MyMusic.Api.MvcApplicationPartsAssemblyInfo.cs
+G:\git\Source\Repos\effective-guacamole\MyMusic.Api\obj\Debug\netcoreapp3.1\MyMusic.Api.MvcApplicationPartsAssemblyInfo.cache
