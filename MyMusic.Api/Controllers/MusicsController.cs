@@ -74,14 +74,14 @@ namespace MyMusic.Api.Controllers
             if (requestIsInvalid)
                 return BadRequest(validationResult.Errors); // this needs refining, but for demo it is ok. How could/should this be refined for production?
 
-            var musicToBeUpdate = await _musicService.GetMusicById(id);
+            var musicToBeUpdated = await _musicService.GetMusicById(id);
 
-            if (musicToBeUpdate == null)
+            if (musicToBeUpdated == null)
                 return NotFound();
 
             var music = _mapper.Map<SaveMusicResource, Music>(saveMusicResource);
 
-            await _musicService.UpdateMusic(musicToBeUpdate, music);
+            await _musicService.UpdateMusic(musicToBeUpdated, music);
 
             var updatedMusic = await _musicService.GetMusicById(id);
             var updatedMusicResource = _mapper.Map<Music, MusicResource>(updatedMusic);
