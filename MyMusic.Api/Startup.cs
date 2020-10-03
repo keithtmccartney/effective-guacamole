@@ -33,16 +33,20 @@ namespace MyMusic.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            services.AddDbContext<MyMusicDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Default"), x => x.MigrationsAssembly("MyMusic.Data")));
+
             services.AddScoped<IUnitofWork, UnitOfWork>(); // Add dependency injection for our Unit Of Work.
             services.AddTransient<IArtistService, ArtistService>(); // Add dependency injection for our Artist Service.
             services.AddTransient<IMusicService, MusicService>(); // Add dependency injection for our Music Service.
-            services.AddDbContext<MyMusicDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Default"), x => x.MigrationsAssembly("MyMusic.Data")));
+
             services.AddSwaggerGen(options => {
                 options.SwaggerDoc("v1", new OpenApiInfo {
                     Title = "My Music",
                     Version = "v1"
                 });
             });
+
             services.AddAutoMapper(typeof(Startup));
         }
 
@@ -53,12 +57,15 @@ namespace MyMusic.Api
             {
                 app.UseDeveloperExceptionPage();
             }
+            else
+            {
+                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts."
+                app.UseHsts();
+            }
 
             app.UseHttpsRedirection();
 
             app.UseRouting();
-
-            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
@@ -66,7 +73,6 @@ namespace MyMusic.Api
             });
 
             app.UseSwagger();
-
             app.UseSwaggerUI(c =>
             {
                 c.RoutePrefix = "";
